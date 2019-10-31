@@ -58,9 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
-        accepts: 'application/json',
+        accepts: 'application/json'
       },
-      body: JSON.stringify(obj),
+      body: JSON.stringify(obj)
     })
       .then(resp => resp.json())
       .then(resp => appendToy(resp));
@@ -71,16 +71,17 @@ document.addEventListener('DOMContentLoaded', () => {
       method: 'PATCH',
       headers: {
         'content-type': 'application/json',
-        accepts: 'application/json',
+        accepts: 'application/json'
       },
       body: JSON.stringify({
-        likes: newLike,
-      }),
+        likes: newLike
+      })
     })
       .then(resp => resp.json())
       .then(data => {
-        const editedToy = document.querySelector(`div[data-id="${data.id}"]`);
-        editedToy.querySelector('p').innerText = `${data.likes} likes`;
+        const editedToy = (document.querySelector(
+          `div[data-id="${data.id}"] p`
+        ).innerText = `${data.likes} likes`);
       });
   };
 
@@ -91,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let obj = {
       name: event.target[0].value,
       image: event.target[1].value,
-      likes: 0,
+      likes: 0
     };
     postToy(obj);
     toySubmission.reset();
