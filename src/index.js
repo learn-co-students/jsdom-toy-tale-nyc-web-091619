@@ -79,9 +79,9 @@ document.addEventListener('DOMContentLoaded', () => {
     })
       .then(resp => resp.json())
       .then(data => {
-        const editedToy = (document.querySelector(
+        document.querySelector(
           `div[data-id="${data.id}"] p`
-        ).innerText = `${data.likes} likes`);
+        ).innerText = `${data.likes} likes`;
       });
   };
 
