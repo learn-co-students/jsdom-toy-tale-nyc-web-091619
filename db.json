@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 20
+      "likes": 53
     },
     {
       "id": 2,
@@ -53,12 +53,6 @@
       "image": "https://vignette.wikia.nocookie.net/pixar/images/a/a4/Toy_Story_Sarge.png/revision/latest?cb=20190210014657",
       "likes": 7,
       "id": 9
-    },
-    {
-      "name": "ALL",
-      "image": "https://ib2.hulu.com/user/v3/artwork/f07fda57-08f0-495d-aae6-2c7e6b7da29a?base_image_bucket_name=image_manager&base_image=99c47ba6-f4c9-4d47-8d94-eee6ab5d9a39&size=400x600&format=jpeg",
-      "likes": 29,
-      "id": 10
     }
   ]
 }
