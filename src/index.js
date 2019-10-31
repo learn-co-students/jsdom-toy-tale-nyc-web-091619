@@ -2,9 +2,6 @@ let addToy = false
 
 const site = "http://localhost:3000/toys";
 
-
-
-
 document.addEventListener("DOMContentLoaded", ()=>{
   const newToyForm = document.getElementsByClassName("add-toy-form")[0]
 
@@ -26,7 +23,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
         let obj = {
             name: name,
             image: image,
-            likes: "0"
+            likes: 0
         }
         actuallyAddToy(obj)
         newToyForm.reset()
@@ -108,7 +105,5 @@ function updateLikes(like, id) {
         likes: like
       })
   })
-      .then(function (resp) { return resp.json() })
-      .then(function (json) { renderToys(json) })
 }
 
