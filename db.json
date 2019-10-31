@@ -46,7 +46,25 @@
       "id": 8,
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "likes": 2
+    },
+    {
+      "name": "Mrs. Potato Head",
+      "image": "https://cdn.imgbin.com/16/13/24/imgbin-toy-story-mr-potato-head-mrs-potato-head-stinky-pete-sheriff-woody-toy-story-8PfAW9RTwVRSHiKCRksP8w4tu.jpg",
+      "likes": 0,
+      "id": 9
+    },
+    {
+      "name": "Mrs. Potato Head",
+      "image": "https://cdn.imgbin.com/16/13/24/imgbin-toy-story-mr-potato-head-mrs-potato-head-stinky-pete-sheriff-woody-toy-story-8PfAW9RTwVRSHiKCRksP8w4tu.jpg",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "name": "Mrs. Potato Head",
+      "image": "https://cdn.imgbin.com/16/13/24/imgbin-toy-story-mr-potato-head-mrs-potato-head-stinky-pete-sheriff-woody-toy-story-8PfAW9RTwVRSHiKCRksP8w4tu.jpg",
+      "likes": 0,
+      "id": 11
     }
   ]
 }
