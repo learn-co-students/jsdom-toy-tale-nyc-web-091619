@@ -4,13 +4,13 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
+      "likes": 19
     },
     {
       "id": 2,
       "name": "Buzz Lightyear",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 8
+      "likes": 13
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "id": 4,
       "name": "Slinky Dog",
       "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
+      "likes": 5
     },
     {
       "id": 5,
@@ -47,6 +47,18 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "Spongebob",
+      "image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjKybDhiMflAhVkleAKHcNRDbEQjRx6BAgBEAQ&url=https%3A%2F%2Fheavy.com%2Ftoys%2F2018%2F08%2Fchristmas-toys%2F&psig=AOvVaw3SOB1VjT7PV5iyDaDPuGTT&ust=1572630881899613",
+      "likes": 0,
+      "id": 16
+    },
+    {
+      "name": "Minion",
+      "image": "https://heavyeditorial.files.wordpress.com/2015/07/minion-dave.jpg?quality=65&strip=all&w=425",
+      "likes": 0,
+      "id": 17
     }
   ]
 }
